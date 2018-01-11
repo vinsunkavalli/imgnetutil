@@ -65,4 +65,4 @@ class ImageNetInfo():
                 try:
                     urlretrieve(self.urls[wnid+"_"+self.wnids[wnid][i]], wnid+"_"+str(i+1)+'.jpg')
                 except:
-                    None
+                    print ':('
